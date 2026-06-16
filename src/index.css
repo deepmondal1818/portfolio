@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0a0a;
+  --orange: #e85d04;
+  --orange2: #ff6a00;
+  --red: #c1121f;
+  --text: #e8e8e8;
+  --muted: #555;
+  --card: #111111;
+  --border: #1e1e1e;
+  --glass: rgba(255,255,255,0.04);
+  --glass-border: rgba(255,255,255,0.08);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--orange); border-radius: 2px; }
+
+a { text-decoration: none; color: inherit; }
+button { font-family: 'Inter', sans-serif; cursor: pointer; }
